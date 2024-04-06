@@ -1,0 +1,23 @@
+img {
+    width: 30%;
+    margin: 1.66666666%;
+    border-radius: 10em;
+    transition: all 0.25s ease-out;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #252525;
+}
+
+img:hover {
+    width: 28%;
+    margin: calc(10/6);
+    border-radius: 1em;
+    border-color: white;
+    border: 5px solid white;
+}
